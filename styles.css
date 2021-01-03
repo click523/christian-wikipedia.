@@ -1,0 +1,55 @@
+body {
+  background: white;
+}
+.t1 {
+  position: relative;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  z-index: 3;
+  left: 7px;
+  font-size: 30;
+  top: 20px;
+}
+
+.b1 {
+  background-color: FFE8E8;
+  width: 165;
+  height: 80;
+  position: absolute;
+  bottom: 479px;
+  z-index: 2;
+  left: 10px;
+}
+.b2 {
+  background-color: F8CBCB;
+  width: 165;
+  height: 80;
+  position: absolute;
+  bottom: 467px;
+  z-index: 1;
+  left: 20px;
+}
+.t2 {
+  position: relative;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  font-size: 50;
+  top: 150;
+  left: 10;
+  border-right: 4px orange ;
+  animation: t2 1s ease-in-out;
+}
+
+@keyframes t2 {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  70% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
